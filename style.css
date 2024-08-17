@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "f1";
+}
+
+.header{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(229, 17, 17);
+}
+.sub-header{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 3px 0px;
+}
+.logo{
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+}
+@font-face {
+    font-family: "f1";
+    src: url("Formula1-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.title{
+    font-family: "f1";
+    margin-top: 10px;
+    color: white;
+    font-size: 40px;
+}
+.notices{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 400px;
+    width: 80%;
+    margin: auto auto;
+}
+.content-p1{
+    box-shadow: 0px 0px 3px 0px;
+    border-radius: 15px;
+   height: 250px; 
+   width: 350px;
+   border: 1px solid grey;
+}
+
+.content-p2{
+    box-shadow: 0px 0px 3px 0px;
+    border-radius: 15px;
+   height: 200px; 
+   width: 300px;
+   border: 1px solid grey;
+}
+.content-p3{
+    box-shadow: 0px 0px 3px 0px;
+    border-radius: 15px;
+   height: 200px; 
+   width: 300px;
+   border: 1px solid grey;
+}
+.p1{
+    margin-top: -75px;
+    margin-left: 75px;
+    height: 130%;
+    width: 80%;
+}
+.p2{
+    margin-top: -60px;
+    margin-left: 50px;
+    height: 130%;
+    width: 95%;
+}
+.p3{
+    margin-top: -60px;
+    margin-left: -35px;
+    height: 130%;
+    width: 155%;
+}
+.CeR{
+    padding-top: 14px;
+    color: white;
+    font-family: "f1";
+}
+.p1-name{
+    position: absolute;
+    left: 38%;
+    top: 22%;
+    color: rgb(45, 45, 45);
+}
+.p2-name{
+    position: absolute;
+    left: 11%;
+    top: 25%;
+    color: rgb(45, 45, 45);
+}
+.p3-name{
+    position: absolute;
+    left: 71%;
+    top: 25%;
+    color: rgb(45, 45, 45);
+}
+.backg{
+    justify-content: center;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+}
+.uk{
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    height: 35px;
+    width: 65px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(171, 171, 171);
+}
+.nl{
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    height: 35px;
+    width: 65px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(171, 171, 171);
+}
+.p1-number{
+    color: rgb(45, 45, 45);
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 37px;
+}
+.p2-number{
+    color: rgb(45, 45, 45);
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.p3-number{
+    color: rgb(45, 45, 45);
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 32px;
+}
